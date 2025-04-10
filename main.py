@@ -35,5 +35,6 @@ def play_morse(morse_code):
 # Test with verified Morse code
 
 text=input()
-print(len(text_to_morse(text)))
-play_morse(text_to_morse(text))
+code=text_to_morse(text)
+print(len(code)+" symbols")
+play_morse(code)
